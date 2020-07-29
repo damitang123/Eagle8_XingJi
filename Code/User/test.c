@@ -21,7 +21,7 @@ volatile eTestState g_eTestState;
 eTestMode g_eTestMode = eTestActive;
 eAlcTestPurpose g_eAlcTestPurpose = eTestForNormal;
 
-
+  
 /*流量有关的-开始*****************************************************************************************/
 
 unsigned char g_nInvalidBlowPressCnt;

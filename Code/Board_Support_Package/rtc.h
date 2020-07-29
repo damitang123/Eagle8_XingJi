@@ -10,10 +10,10 @@ typedef struct
 	unsigned char wHour;
 	unsigned char wMinute;
 	unsigned char wSecond;
-} __attribute__ ((packed))sDateTime; /*Ã¿Ò»ÏîÎªBCDÂë±àÂëĞÎÊ½*/
+} __attribute__ ((packed))sDateTime; /*æ¯ä¸€é¡¹ä¸ºBCDç ç¼–ç å½¢å¼*/
 
 extern sDateTime		g_sDateTime;
-extern unsigned char 	g_nDayOfWeek;	/*ĞÇÆÚ*/
+extern unsigned char 	g_nDayOfWeek;	/*æ˜ŸæœŸ*/
 
 
 typedef enum
